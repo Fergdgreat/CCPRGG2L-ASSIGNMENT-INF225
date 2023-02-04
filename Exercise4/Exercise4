@@ -1,0 +1,15 @@
+public class Exercise_4 {
+    public static void main(String[] args) throws Exception {
+
+        Person Friend = new Person("Jer",22 );
+
+        MySelf Me = new MySelf("Nikolai", 19);
+        Me.addFriend(Friend);
+
+        Pet Dog = new Pet("Yube", Friend);
+        Dog.ShowOwnerName();
+
+        Car Brio = new Car("Brio", Me, 1000);
+        Brio.ShowCar();
+    }
+}
