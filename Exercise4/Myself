@@ -1,0 +1,17 @@
+public class MySelf {
+
+    String Name;
+        int Age;
+
+        MySelf(String MyName, int MyAge){
+            this.Name = MyName;
+            this.Age = MyAge;
+
+
+
+        }
+        void addFriend(Person Friend) {
+            System.out.println("My friend is  " + Friend.Name );
+
+        }
+}
