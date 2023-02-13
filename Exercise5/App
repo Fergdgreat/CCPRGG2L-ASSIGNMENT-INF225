@@ -1,0 +1,28 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        Person Me = new Person();
+
+ 
+        Me.setName("lalai");
+
+        String myName = Me.getName();
+
+        System.out.println("My name is " + myName);
+
+        Me.setCcNumber(3242);
+
+        int myCcNumber = Me.getCcNumber();
+
+        System.out.println("My Cc number is " + myCcNumber);
+
+        //=================================================
+
+        Son me = new Son();
+
+        System.out.println("Our Surname is " + me.surname);
+
+        me.showLove();
+        
+    }
+}
